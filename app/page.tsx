@@ -12,14 +12,12 @@ export default function Home() {
   return (
     <main className="relative min-h-screen overflow-x-hidden">
       <SceneWrapper />
-      <div className="relative z-10">
-        <Navigation />
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-      </div>
+      <Navigation />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
     </main>
   );
 }
